@@ -1,20 +1,20 @@
 # Doozer Client
 
-**Note:** [doozerd](/ha/doozerd) is the server.
+**Note:** [doozerd](/vys/doozerd) is the server.
 This is the Go client driver for doozer.
 
 ## How to use
 
 To install the Go client:
 
-    $ go get github.com/4ad/doozer/cmd/doozer
+    $ go get github.com/vys/doozer/cmd/doozer
 
 To use:
 
     package main
 
     import (
-    	"github.com/ha/doozer"
+        "github.com/vys/doozer"
     	"os"
     )
 
